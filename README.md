@@ -61,10 +61,10 @@ Backend:
 node server.js
 ```
 
-#### Note: Please note that you need to place your gemini API key in the .env file in "LifeLine_V2_UI_Dev/LIfeLine_UI_Dev/healthcare-app/backend/" directory in order for a feature to work. 
+### Note: Please note that you need to place your gemini API key in the .env file in "LifeLine_V2_UI_Dev/LIfeLine_UI_Dev/healthcare-app/backend/" directory in order for a feature to work. 
 
 
-Contributing
+### Contributing
 We welcome contributions! Please follow these steps:
 
 Fork the repository.
