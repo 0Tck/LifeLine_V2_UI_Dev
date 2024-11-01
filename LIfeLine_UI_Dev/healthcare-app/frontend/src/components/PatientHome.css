@@ -1,0 +1,96 @@
+/* PatientHome.css */
+.patient-summary-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px auto;  /* Changed to auto for horizontal centering */
+  display: flex;
+  gap: 30px;
+  max-width: 800px;
+}
+
+.patient-photo {
+  width: 200px;
+  height: 200px;  
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.patient-details {
+  flex-grow: 1;
+}
+
+.patient-name {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.details-grid {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px;
+  align-items: center;
+}
+
+.detail-label {
+  font-weight: 600;
+  color: #666;
+  min-width: 150px;
+}
+
+.detail-value {
+  color: #333;
+}
+
+.status-chip {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 15px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.status-healthy {
+  background-color: #e7f5e7;
+  color: #1f7a1f;
+}
+
+.status-attention {
+  background-color: #fff3e0;
+  color: #b35c00;
+}
+
+.medication-list {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.appointment-date {
+  color: #2563eb;
+  font-weight: 500;
+}
+
+/* Add wrapper for additional centering if needed */
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 850px) {
+  .patient-summary-card {
+    margin: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .patient-photo {
+    width: 150px;
+    height: 150px;
+  }
+}

@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .login-container, .register-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 12px #aaa;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form div {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input, select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  /* styles.css */
+/* Navigation Styles */
+.nav-container {
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 0 20px;
+}
+
+.nav-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+}
+
+.nav-left {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-link {
+  color: #555;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #2563eb;
+  background-color: #f3f4f6;
+}
+
+.logout-button {
+  background-color: #ef4444;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: #dc2626;
+}
+
+/* Doctor Page Styles */
+.doctor-container {
+  min-height: 100vh;
+  background-color: #f9fafb;
+}
+
+.coming-soon-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 48px 20px;
+  text-align: center;
+}
+
+.coming-soon-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #111827;
+  margin-bottom: 16px;
+}
+
+.coming-soon-text {
+  font-size: 1.25rem;
+  color: #4b5563;
+  margin-bottom: 32px;
+}
+
+.coming-soon-badge {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #dbeafe;
+  color: #1d4ed8;
+  border-radius: 4px;
+  font-weight: 500;
+}

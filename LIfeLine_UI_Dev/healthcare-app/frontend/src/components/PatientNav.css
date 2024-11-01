@@ -1,0 +1,81 @@
+/* PatientNav.css */
+.nav-container {
+    background-color: #880808;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .nav-content {
+    display: flex;
+    height: 64px;
+    width: 100%;
+  }
+  
+  .nav-left {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: auto; /* Pushes content to the left */
+  }
+  
+  .nav-right {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-left: auto; /* Pushes content to the right */
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    padding: 8px 12px;
+    border-radius: 6px;
+  }
+  
+  
+  
+  .logout-button {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    white-space: nowrap;
+  }
+  
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .nav-content {
+      padding: 0 20px;
+    }
+  
+    .nav-right {
+      gap: 12px;
+    }
+  
+    .nav-link {
+      padding: 6px 8px;
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 640px) {
+    .nav-left {
+      font-size: 16px;
+    }
+    
+    .nav-content {
+      padding: 0 10px;
+    }
+    
+    .nav-right {
+      gap: 8px;
+    }
+  }
