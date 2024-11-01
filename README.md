@@ -7,8 +7,6 @@ LifeLine is a comprehensive application designed to help users manage their ment
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 ## Getting Started
 
@@ -18,7 +16,7 @@ These instructions will help you set up the project on your local machine for de
 
 Make sure you have the following installed:
 
-- [Node.js](https://nodejs.org/) (version X.X.X)
+- [Node.js](https://nodejs.org/) 
 - [npm](https://www.npmjs.com/) (comes with Node.js)
 
 ## Installation
@@ -62,6 +60,9 @@ Backend:
 ```bash
 node server.js
 ```
+
+## Note: Please note that you need to place your gemini API key in the .env file in "LifeLine_V2_UI_Dev/LIfeLine_UI_Dev/healthcare-app/backend/" directory in order for a feature to work. 
+
 
 Contributing
 We welcome contributions! Please follow these steps:
